@@ -18,7 +18,8 @@
         " Jinja
         Plug 'lepture/vim-jinja'
         " vim airline
-        Plug 'bling/vim-airline'
+        Plug 'vim-airline/vim-airline'
+        Plug 'vim-airline/vim-airline-themes'
         " CtrlP
         Plug 'kien/ctrlp.vim'
         " colorschemes
@@ -32,7 +33,6 @@
 "-----------------------------
     " Coloration syntaxique
     syntax enable 
-    set t_Co=256
     colorscheme molokai
     " surbrillance de la 80 eme colonne
     set colorcolumn=80
@@ -130,8 +130,8 @@ autocmd BufNewFile,BufRead *.md set filetype=markdown
 "---------------------------------
 " SPECIFIC PLUGIN CONFIGURATION
 "---------------------------------
-    " Powerline
-    let g:Powerline_symbols = 'fancy'
+    " Powerline fonts
+    let g:airline_powerline_fonts = 1
     " Empecher le lag de rafraichissement de powerline d'1 seconde lors de
     " l'appui sur la touche ESC
     if ! has('gui_running')
