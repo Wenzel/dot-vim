@@ -32,8 +32,8 @@
 "         DISPLAY
 "-----------------------------
     " Coloration syntaxique
-    syntax enable 
-    colorscheme molokai
+    syntax enable
+    colorscheme solarized
     " surbrillance de la 80 eme colonne
     set colorcolumn=80
     " Numéros des lignes
