@@ -11,3 +11,8 @@ dotfiles for `vim`
 
     vim
     :PlugUpdate
+
+# Note
+
+The `solarized` theme may require to change your terminal colors.
+[solarized](https://github.com/altercation/solarized)
