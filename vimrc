@@ -75,6 +75,9 @@
     " Type de fichiers par defaut
     set ff=unix
 
+    " vsplit on the right
+    set splitright
+
     " BACKUPS
     "------------
         set nobackup
