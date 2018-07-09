@@ -24,6 +24,10 @@
         Plug 'kien/ctrlp.vim'
         " colorschemes
         Plug 'flazz/vim-colorschemes'
+        " Vue JS
+        Plug 'posva/vim-vue'
+        " Vagrant
+        Plug 'hashivim/vim-vagrant'
 
     filetype indent on " load filetype specific indent files
     call plug#end()
@@ -33,9 +37,9 @@
 "-----------------------------
     " Coloration syntaxique
     syntax enable
-    colorscheme solarized
-    " surbrillance de la 80 eme colonne
-    set colorcolumn=80
+    colorscheme molokai
+    " surbrillance de la 100 eme colonne
+    set colorcolumn=100
     " Numéros des lignes
     set number
     " Afficher les commandes partielles
@@ -109,6 +113,10 @@
         set ic
         " Regexp facile
         set magic
+    " WRAP
+    "---------------
+    set textwidth=80
+    set nowrap
 
 
 
